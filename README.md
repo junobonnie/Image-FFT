@@ -5,11 +5,11 @@
 <br>
 
 ## FFT -> Frequency Map
-![image](https://github.com/junobonnie/Image-FFT/assets/60418809/3c9feabb-6bea-4e3e-b838-0c7befaf9f1b)
+![image](https://github.com/junobonnie/Image-FFT/assets/60418809/61074170-451a-47a9-91f4-5907de8b811b)
 <br>
 
 ## Remove High Frequency
-![image](https://github.com/junobonnie/Image-FFT/assets/60418809/ca3cdd16-6cf1-4f8b-a5bc-ce3a2cd8cedc)
+![image](https://github.com/junobonnie/Image-FFT/assets/60418809/a51d566f-1d33-4eb6-9917-b0426c8ded13)
 <br>
 
 ## InverseFFT -> Almost Original Image
