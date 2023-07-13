@@ -4,7 +4,7 @@
 ![image](https://github.com/junobonnie/Image-FFT/assets/60418809/a7969af9-6ab1-4377-9ff1-e164d58942db)
 <br>
 
-## FFT ->Frequency Map
+## FFT -> Frequency Map
 ![image](https://github.com/junobonnie/Image-FFT/assets/60418809/3c9feabb-6bea-4e3e-b838-0c7befaf9f1b)
 <br>
 
