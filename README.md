@@ -15,3 +15,8 @@
 ## InverseFFT -> Almost Original Image
 ![image](https://github.com/junobonnie/Image-FFT/assets/60418809/81385c35-99ed-4c05-ab15-1fe7627c6d02)
 <br>
+
+
+## 번외: 안경벗고 보면 똑같은 그림 (Original vs -10<f<10)
+![image](https://github.com/junobonnie/Image-FFT/assets/60418809/a7969af9-6ab1-4377-9ff1-e164d58942db)
+![image](https://github.com/junobonnie/Image-FFT/assets/60418809/c64a7938-c32e-4fc8-8f57-8fedd6d5aff6)
