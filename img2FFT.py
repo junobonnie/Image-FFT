@@ -60,6 +60,11 @@ value = 100
 fft_img[value:-value,:] = 0
 fft_img[:,value:-value] = 0
 
+# fft_img[:value,:value] = 0
+# fft_img[:value,-value:] = 0
+# fft_img[-value:,:value] = 0
+# fft_img[-value:,-value:] = 0
+
 show_fft_image(fft_img)
 
 ifft_img = ifft_image(fft_img)
