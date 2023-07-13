@@ -34,8 +34,8 @@ def ifft_image(img):
 
 def reshape_image(img):
     x, y, z = img.shape
-    half_x = int(x/2)
-    half_y = int(y/2)
+    half_x = x//2
+    half_y = y//2
 
     return np.vstack([np.hstack([img[half_x:, half_y:, :], img[half_x:, :half_y, :]]),
                       np.hstack([img[:half_x, half_y:, :], img[:half_x, :half_y, :]])])
@@ -44,7 +44,10 @@ def show_fft_image(fft_img):
     fft_img = reshape_image(fft_img)
     abs_ = abs(fft_img)
     max_ = np.max(abs_)
-    plt.imshow(abs_/max_*255)
+    x, y, z = img.shape
+    half_x = x//2
+    half_y = y//2
+    plt.imshow(abs_/max_*255, extent=[-half_y, y-half_y, -half_x, x-half_x])
     plt.show()
 
 img = plt.imread(r"D:\Media\사진\게임 스샷\KSP\20210517225512_1.jpg")
